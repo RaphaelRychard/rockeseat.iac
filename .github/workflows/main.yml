@@ -44,4 +44,6 @@ jobs:
         with:
           command: up
           stack-name: eusouraphaelrychard/stg
+        env:
+          PULUMI_ACCESS_TOKEN: ${{ PULUMI_ACCESS_TOKEN }}
 
